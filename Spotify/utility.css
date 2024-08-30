@@ -1,0 +1,73 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.rounded{
+    border-radius: 8px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 15px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+/* Apply to the entire page or specific container with a scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+    border: 3px solid #191919; /* Dark border color */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #191919; /* Dark background color */
+  }
+  
+  /* Track on hover */
+  ::-webkit-scrollbar-track:hover {
+    background: #333;
+  }
+  
